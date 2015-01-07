@@ -6,7 +6,8 @@
 
 
 // Our variables
-$base-font-family: 'Rokkitt', serif;
+$base-header-font-family: "Rokkitt", serif;
+$base-font-family: "Roboto Slab", serif;
 $base-font-size:   17px;
 $small-font-size:  $base-font-size * 0.875;
 $base-line-height: 1.5;
@@ -47,5 +48,7 @@ $on-laptop:        800px;
 // Import partials from `sass_dir` (defaults to `_sass`)
 @import "base",
         "layout",
-        "syntax-highlighting"
-;
+        "syntax-highlighting";
+
+@import url(http://fonts.googleapis.com/css?family=Roboto+Slab:400,700,300);
+@import url(http://fonts.googleapis.com/css?family=Rokkitt:400,700);
