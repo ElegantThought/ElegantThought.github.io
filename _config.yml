@@ -1,7 +1,7 @@
 # Site settings
 title: Elegant Thought Blog
 email: ""
-description: > 
+description: >
  Elegant Thoughts blog
 baseurl: "" # the subpath of your site, e.g. /blog/
 url: "http://blog.elegantthought.com" # the base hostname & protocol for your site
